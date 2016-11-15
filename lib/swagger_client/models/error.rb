@@ -22,10 +22,9 @@ limitations under the License.
 =end
 
 require 'date'
-
 module SwaggerClient
 
-  class Error < ActiveRecord::Base
+  class Error
     attr_accessor :code
 
     attr_accessor :message

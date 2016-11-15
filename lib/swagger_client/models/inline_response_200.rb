@@ -22,7 +22,6 @@ limitations under the License.
 =end
 
 require 'date'
-
 module SwaggerClient
 
   class InlineResponse200

@@ -25,7 +25,7 @@ require 'date'
 
 module SwaggerClient
 
-  class Contract < ActiveRecord::Base
+  class Contract
     attr_accessor :id
 
     attr_accessor :lisa_contract_id

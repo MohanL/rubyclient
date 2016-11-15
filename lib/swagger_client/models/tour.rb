@@ -22,10 +22,9 @@ limitations under the License.
 =end
 
 require 'date'
-
 module SwaggerClient
 
-  class Tour < ActiveRecord::Base
+  class Tour
     attr_accessor :id
 
     attr_accessor :name
