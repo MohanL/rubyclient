@@ -23,7 +23,7 @@ limitations under the License.
 
 require 'date'
 
-module SwaggerClient
+module SwaggerClient < ActiveRecord::Base
 
   class Contract
     attr_accessor :id
